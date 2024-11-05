@@ -1,6 +1,5 @@
 import sqlite3
 from datetime import datetime
-import random
 
 conn = sqlite3.connect("notes.db")
 cursor = conn.cursor()
