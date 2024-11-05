@@ -1,5 +1,6 @@
 import sqlite3
 from datetime import datetime
+import random
 
 conn = sqlite3.connect("notes.db")
 cursor = conn.cursor()
@@ -74,6 +75,8 @@ def main():
             break
         else:
             print("Неверный выбор. Попробуйте снова.")
+
+
 
 if __name__ == "__main__":
     main()
